@@ -39,13 +39,13 @@ input{
     /* для адаптации делаем макс размер на 80% экрана */
     flex: 0.8;
     /* вставляю иконку поиска */
-    background-image: url(img\search\icon.svg);
+    background-image: url(../img/search_icon.svg);
        
 }
 
 .input_search{
     width: 300px;
-    background-image: url(img\search.svg);
+    background-image: url(../img/search.svg);
     margin-left: auto;
     }
 
@@ -88,7 +88,7 @@ input{
 }
 
 .promo{
- background: #FFF1B8 url(img\pizza_PNG44090.png)  /*no-repeat top right; */
+ background: #FFF1B8 url(../img/pizza_PNG44090.png)  /*no-repeat top right; */
 /* Альтенативное расположение */
  no-repeat top -8px right -4px / 650px;
 border-radius: 10px;

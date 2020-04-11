@@ -88,7 +88,7 @@ input{
 }
 
 .promo{
- background: #FFF1B8 url(../img/pizza_PNG44090.png)  /*no-repeat top right; */
+ background: #FFF1B8 url(img/pizza_PNG44090.png)  /*no-repeat top right; */
 /* Альтенативное расположение */
  no-repeat top -8px right -4px / 650px;
 border-radius: 10px;

@@ -25,7 +25,7 @@
                     <img src="img\user.svg" alt="user-logo" class="button_icon">
                     <span class="button-text">Войти</span>
                     </button>
-            <button class="button">
+            <button class="button" id="card-button">
                 <img class="button_icon" src="img\shopping-cart.svg" alt="shopping cart">
                 <span class="button-text">Корзина</span>
             </button>
@@ -47,10 +47,10 @@
                 </div>
                 <div class="cards">
                     <a href="restaurant.html" class="card">
-                        <img src="img\pizza_1.png" class="card-image" alt="">
+                        <img src="img\Mamamia restaurant.jpeg" class="card-image" alt="">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Пицца плюс</h3>
+                                <h3 class="card-title">Mamamia</h3>
                                 <span class="card-tag tag">50 min</span>
                             </div> <!-- /.card-heading -->
                             <div class="card_info">
@@ -65,10 +65,10 @@
                     </a><!-- /.card -->
         
                     <div class="card">
-                        <img src="img\pizza_2.png" class="card-image" alt="">
+                        <img src="img\MIster Cat Restaurant.jpg" class="card-image" alt="">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Пицца от шефа</h3>
+                                <h3 class="card-title">Mister Cat</h3>
                                 <span class="card-tag tag">40 min</span>
                             </div>
                             <!-- /.card-heading -->
@@ -83,10 +83,10 @@
                     </div><!-- /.card -->
         
                     <div class="card">
-                        <img src="img\pizza_3.png" class="card-image" alt="">
+                        <img src="img\dominos_pizza_ Restaurant.jpg" class="card-image" alt="">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Франческо</h3>
+                                <h3 class="card-title">Dominos</h3>
                                 <span class="card-tag tag">30 min</span>
                             </div>
                             <!-- /.card-heading -->
@@ -101,10 +101,10 @@
                     </div><!-- /.card -->
         
                     <div class="card">
-                        <img src="img\pizza_P4.png" class="card-image" alt="">
+                        <img src="img\Mafia Restaurant.jpeg" class="card-image" alt="">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Пицца Грибная</h3>
+                                <h3 class="card-title">Mafia</h3>
                                 <span class="card-tag tag">30 min</span>
                             </div>
                             <!-- /.card-heading -->
@@ -119,17 +119,17 @@
                     </div><!-- /.card -->
         
                     <div class="card">
-                        <img src="img\menu2.png" class="card-image" alt="">
+                        <img src="img\Capo Di Monte Restaurant.jpg" class="card-image" alt="">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Паста</h3>
+                                <h3 class="card-title">CapoDiMonte</h3>
                                 <span class="card-tag tag">30 min</span>
                             </div>
                             <!-- /.card-heading -->
                             <div class="card_info">
                                 <div class="rating"> <img src="img\raiting.svg" alt=""> 4.5</div>
                                 <div class="price">От 500 ₽</div>
-                                <div class="category">Паста</div>
+                                <div class="category">Пицца и Паста</div>
                             </div>
                             <!-- /.card_info -->
                         </div>
@@ -137,10 +137,10 @@
                     </div><!-- /.card -->
         
                     <div class="card">
-                        <img src="img\fried_chicken_PNG14105.png" class="card-image" alt="">
+                        <img src="img\Pizza 33 restaurant.png" class="card-image" alt="">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Нагетсы</h3>
+                                <h3 class="card-title">Pizza 33</h3>
                                 <span class="card-tag tag">50 min</span>
                             </div>
                             <!-- /.card-heading -->
@@ -178,5 +178,80 @@
         </div>
     </footer>
 
+    <!-- КОРЗИНА ПРИ НАЖАТИИ -->
+
+    <div class="modal"> <!-- is-open для отображения-->
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">Корзина</h3>
+                <button class="modal-close">&times;</button>
+            </div> <!-- modal-header-->
+            <div class="modal-body">
+                <div class="food-row">
+                    <span class="food-name"> Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name"> Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name"> Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name"> Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name"> Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+
+                    </div>
+                </div>
+            </div> <!--Modal body-->
+            <div class="modal-footer">
+                <span class="price-tag">1250 ₽</span>
+                <div class="footer-buttons">
+                    <button class="button button-primary ">Оформить заказ</button>
+                    <button class="button">Отмена</button>
+
+                </div>
+            </div>
+        </div> <!-- Modal dialog-->
+</div> <!-- MODAL-->
+
+<!-- Подключение JS -->
+<script src="js\main.js"></script>
+
 </body>
+
 </html>
